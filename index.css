@@ -1,0 +1,49 @@
+body {
+    margin: 50px 100px;
+    background-color: rgb(15, 15, 107);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6rem;
+    margin: 0 0;
+}
+
+#home-score, #guest-score {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13rem;
+    border-radius: 15px;
+    background-color: #0e0e0e;
+    color: rgb(243, 54, 54);
+    margin: 20px 0;
+    width: 350px;
+    height: auto;
+}
+
+.home-button, .guest-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 8px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 107);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#reset-button {
+    display: block;
+    margin: 40px auto 0 auto;
+}
